@@ -116,7 +116,7 @@ async function main2() {
         if (el.textContent?.trim() == "Approve") {
           found = true;
           tableHeadElements.forEach((el, index) => {
-            // refractor this code to remove any child instead of hardcoded the child
+            // refractor this code to remove any child instead of hardcoded child
             const supElement = el.querySelector("sup");
             if (supElement) el.removeChild(supElement);
 
